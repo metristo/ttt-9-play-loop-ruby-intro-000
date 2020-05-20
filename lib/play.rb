@@ -38,7 +38,6 @@ end
 # Define your play method below
 play(board)
 until rounds == 9
-  do turn(board)
+  turn(board)
     rounds += 1
-  end
 end
